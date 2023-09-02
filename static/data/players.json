@@ -1,0 +1,91 @@
+[
+    {
+        "attackers": [
+            {
+                "name": "Lionel Messi",
+                "number": 10,
+                "position": "RW",
+                "age": 35,
+                "goals": 100,
+                "caps": 150,
+                "club": "Paris Saint-Germain",
+                "href": "/lionel-messi",
+                "highlights": [],
+                "bio": "",
+                "img": "https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
+            },
+            {
+                "name": "Julian Alvarez",
+                "number": 9,
+                "position": "ST",
+                "age": 24,
+                "goals": 2,
+                "caps": 4,
+                "club": "Manchester City",
+                "href": "/julian-alvarez",
+                "highlights": [],
+                "bio": "",
+                "img": "https://img.allfootballapp.com/www/M00/39/7A/CgAGVmOTHlmAA7JTAACRBAFiD_4259.jpg"
+            },
+            {
+                "name": "Lautaro Martinez",
+                "number": 22,
+                "position": "ST",
+                "age": 26,
+                "goals": 20,
+                "caps": 52,
+                "club": "Inter Milan",
+                "href": "/lautaro-martinez",
+                "highlights": [],
+                "bio": "",
+                "img": "https://www.bt.com/content/dam/bt/portal/images/articles/sport/world-cup-2022/Martinez6.jpg/jcr:content/renditions/landscape-desktop.764.430.jpg"
+            }
+        ],
+        "midfielders" : [
+            {
+                "name": "Enzo Fernandez",
+                "number": 24,
+                "position": "CM",
+                "age": 23,
+                "goals": 1,
+                "caps": 4,
+                "club": "Benfica",
+                "href": "/enzo-fernandez",
+                "highlights": [],
+                "bio": "",
+                "img": "https://mundoalbiceleste.com/wp-content/uploads/2022/11/enzo-fernandez-argentina-national-team-goal-mexico-world-cup.jpg"
+            }
+        ],
+        "defenders": [
+            {
+                "name": "Christian Romero",
+                "number": 13,
+                "position": "CB",
+                "age": 25,
+                "goals": 1,
+                "caps": 34,
+                "club": "Tottenham Hotspur",
+                "href": "/christian-romero",
+                "highlights": [],
+                "bio": "",
+                "img": "https://i2-prod.football.london/tottenham-hotspur-fc/players/article25577907.ece/ALTERNATES/s615/0_GettyImages-1244986844.jpg"
+            }
+        ],
+        "goalkeepers": [
+            {
+                "name": "Emiliano Martinez",
+                "number": 23,
+                "position": "GK",
+                "age": 30,
+                "goals": 0,
+                "caps": 32,
+                "club": "Aston Villa",
+                "href": "/emiliano-martinez",
+                "highlights": [],
+                "bio": "",
+                "img": "https://talksport.com/wp-content/uploads/sites/5/2022/12/GettyImages-1450101134.jpg"
+            }
+        ]
+    }
+    
+]

@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { player: "lionel-messi" } },
+    { params: { player: "angel-dimaria" } },
+    { params: { player: "julian-alvarez" } },
+    { params: { player: "lautaro-martinez" } },
+    { params: { player: "enzo-fernandez" } },
+    { params: { player: "rodrigo-depaul" } },
+  ];
+}
+
+const { player } = Astro.params;
+---
+
+<Layout title=`${player} | Muchachos`>
+  <img
+    src="https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
+    alt=""
+    transition:name="img-messi"
+    class="h-[400px] object-cover"
+  />
+  <h1 class="text-4xl" transition:name="test">Lionel Messi</h1>
+  <p>#10 | RW</p>
+</Layout>

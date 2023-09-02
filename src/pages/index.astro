@@ -5,33 +5,71 @@ import Card from "../components/Card.astro";
 
 <Layout title="Muchachos.">
   <main>
-    <h1><span class="text-gradient">Muchachos</span></h1>
-    <p class="instructions">
-      To get started, open the directory <code>src/pages</code> in your project.<br
-      />
-      <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
-      above.
+    <p class="instructions rounded-lg p-6 mb-8 text-base">
+      The World Cup winning Argentina team of 2022.
     </p>
+
+    <div class="mb-8">
+      <h2 class="mb-2 text-3xl">Attackers</h2>
+      <ul role="list" class="link-card-grid">
+        <Card
+          href="/players/lionel-messi"
+          name="Lionel Messi"
+          position="RW"
+          number={10}
+          caps={150}
+          team="Paris Saint-Germain"
+          image="https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
+        />
+        <Card
+          href="/players/angel-dimaria"
+          name="Angel Di Maria"
+          position="LW"
+          number={11}
+          caps={100}
+          team="Juventus"
+          image="https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-12/Angel%20Di%20Maria%20Argentina%20Final%20World%20Cup%20Mundial%202022%20121822%20%281%29.jpg?itok=Un473wAI"
+        />
+        <Card
+          href="/players/julian-alvarez"
+          name="Julian Alvarez"
+          position="ST"
+          number={9}
+          caps={50}
+          team="Manchester City"
+          image="https://img.allfootballapp.com/www/M00/39/7A/CgAGVmOTHlmAA7JTAACRBAFiD_4259.jpg"
+        />
+        <Card
+          href="/players/lautaro-martinez"
+          name="Lautaro Martinez"
+          position="ST"
+          number={22}
+          caps={50}
+          team="Inter Milan"
+          image="https://www.bt.com/content/dam/bt/portal/images/articles/sport/world-cup-2022/Martinez6.jpg/jcr:content/renditions/landscape-desktop.764.430.jpg"
+        />
+      </ul>
+    </div>
+
+    <h2 class="mb-2 text-3xl">Midfield</h2>
     <ul role="list" class="link-card-grid">
       <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
+        href="/players/enzo-fernandez"
+        name="Enzo Fernandez"
+        position="CM"
+        number={24}
+        caps={15}
+        team="Benfica"
+        image="https://mundoalbiceleste.com/wp-content/uploads/2022/11/enzo-fernandez-argentina-national-team-goal-mexico-world-cup.jpg"
       />
       <Card
-        href="https://astro.build/integrations/"
-        title="Integrations"
-        body="Supercharge your project with new frameworks and libraries."
-      />
-      <Card
-        href="https://astro.build/themes/"
-        title="Themes"
-        body="Explore a galaxy of community-built starter themes."
-      />
-      <Card
-        href="https://astro.build/chat/"
-        title="Community"
-        body="Come say hi to our amazing Discord community. ❤️"
+        href="/players/rodrigo-depaul"
+        name="Rodrigo De Paul"
+        position="CM"
+        number={7}
+        caps={50}
+        team="Atletico Madrid"
+        image="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0e9953a760420a18/63923f382d164f58acba94a9/GettyImages-1446630221.jpg?auto=webp&format=pjpg&width=3840&quality=60"
       />
     </ul>
   </main>
@@ -56,41 +94,11 @@ import Card from "../components/Card.astro";
     height: auto;
     z-index: -1;
   }
-  h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  .text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-  }
+
   .instructions {
-    margin-bottom: 2rem;
     border: 1px solid rgba(var(--accent-light), 25%);
-    background: linear-gradient(
-      rgba(var(--accent-dark), 66%),
-      rgba(var(--accent-dark), 33%)
-    );
-    padding: 1.5rem;
-    border-radius: 8px;
   }
-  .instructions code {
-    font-size: 0.8em;
-    font-weight: bold;
-    background: rgba(var(--accent-light), 12%);
-    color: rgb(var(--accent-light));
-    border-radius: 4px;
-    padding: 0.3em 0.4em;
-  }
-  .instructions strong {
-    color: rgb(var(--accent-light));
-  }
+
   .link-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
