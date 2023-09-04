@@ -4,58 +4,65 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="Muchachos.">
-  <main>
-    <p class="instructions rounded-lg p-6 mb-8 text-base">
-      The World Cup winning Argentina team of 2022.
-    </p>
+  <div class="mb-8 mt-16 relative">
+    <h2 class="text-5xl text-neutral-200/50 absolute -top-9">Attackers</h2>
+    <ul
+      role="list"
+      class="link-card-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+    >
+      <Card
+        href="/players/lionel-messi"
+        firstName="Lionel"
+        lastName="Messi"
+        position="RW"
+        number={10}
+        caps={150}
+        team="Paris Saint-Germain"
+        image="https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
+      />
+      <Card
+        href="/players/angel-dimaria"
+        firstName="Angel"
+        lastName="Di Maria"
+        position="LW"
+        number={11}
+        caps={100}
+        team="Juventus"
+        image="https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-12/Angel%20Di%20Maria%20Argentina%20Final%20World%20Cup%20Mundial%202022%20121822%20%281%29.jpg?itok=Un473wAI"
+      />
+      <Card
+        href="/players/julian-alvarez"
+        firstName="Julian"
+        lastName="Alvarez"
+        position="ST"
+        number={9}
+        caps={50}
+        team="Manchester City"
+        image="https://img.allfootballapp.com/www/M00/39/7A/CgAGVmOTHlmAA7JTAACRBAFiD_4259.jpg"
+      />
+      <Card
+        href="/players/lautaro-martinez"
+        firstName="Lautaro"
+        lastName="Martinez"
+        position="ST"
+        number={22}
+        caps={50}
+        team="Inter Milan"
+        image="https://www.bt.com/content/dam/bt/portal/images/articles/sport/world-cup-2022/Martinez6.jpg/jcr:content/renditions/landscape-desktop.764.430.jpg"
+      />
+    </ul>
+  </div>
 
-    <div class="mb-8">
-      <h2 class="mb-2 text-3xl">Attackers</h2>
-      <ul role="list" class="link-card-grid">
-        <Card
-          href="/players/lionel-messi"
-          name="Lionel Messi"
-          position="RW"
-          number={10}
-          caps={150}
-          team="Paris Saint-Germain"
-          image="https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
-        />
-        <Card
-          href="/players/angel-dimaria"
-          name="Angel Di Maria"
-          position="LW"
-          number={11}
-          caps={100}
-          team="Juventus"
-          image="https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-12/Angel%20Di%20Maria%20Argentina%20Final%20World%20Cup%20Mundial%202022%20121822%20%281%29.jpg?itok=Un473wAI"
-        />
-        <Card
-          href="/players/julian-alvarez"
-          name="Julian Alvarez"
-          position="ST"
-          number={9}
-          caps={50}
-          team="Manchester City"
-          image="https://img.allfootballapp.com/www/M00/39/7A/CgAGVmOTHlmAA7JTAACRBAFiD_4259.jpg"
-        />
-        <Card
-          href="/players/lautaro-martinez"
-          name="Lautaro Martinez"
-          position="ST"
-          number={22}
-          caps={50}
-          team="Inter Milan"
-          image="https://www.bt.com/content/dam/bt/portal/images/articles/sport/world-cup-2022/Martinez6.jpg/jcr:content/renditions/landscape-desktop.764.430.jpg"
-        />
-      </ul>
-    </div>
-
-    <h2 class="mb-2 text-3xl">Midfield</h2>
-    <ul role="list" class="link-card-grid">
+  <div class="relative mt-16">
+    <h2 class="mb-2 text-5xl text-neutral-200/50 absolute -top-9">Midfield</h2>
+    <ul
+      role="list"
+      class="link-card-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+    >
       <Card
         href="/players/enzo-fernandez"
-        name="Enzo Fernandez"
+        firstName="Enzo"
+        lastName="Fernandez"
         position="CM"
         number={24}
         caps={15}
@@ -64,7 +71,8 @@ import Card from "../components/Card.astro";
       />
       <Card
         href="/players/rodrigo-depaul"
-        name="Rodrigo De Paul"
+        firstName="Rodrigo"
+        lastName="De Paul"
         position="CM"
         number={7}
         caps={50}
@@ -72,37 +80,5 @@ import Card from "../components/Card.astro";
         image="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0e9953a760420a18/63923f382d164f58acba94a9/GettyImages-1446630221.jpg?auto=webp&format=pjpg&width=3840&quality=60"
       />
     </ul>
-  </main>
+  </div>
 </Layout>
-
-<style>
-  main {
-    margin: auto;
-    padding: 1rem;
-    width: 800px;
-    max-width: calc(100% - 2rem);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-  }
-  .astro-a {
-    position: absolute;
-    top: -32px;
-    left: 50%;
-    transform: translatex(-50%);
-    width: 220px;
-    height: auto;
-    z-index: -1;
-  }
-
-  .instructions {
-    border: 1px solid rgba(var(--accent-light), 25%);
-  }
-
-  .link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    gap: 2rem;
-    padding: 0;
-  }
-</style>

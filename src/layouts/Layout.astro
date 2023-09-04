@@ -20,8 +20,15 @@ const { title } = Astro.props;
     <ViewTransitions />
   </head>
   <body>
-    <h1 class="my-12"><span class="text-gradient">Muchachos</span></h1>
-    <slot />
+    <a href="/" class="absolute top-3 left-3 h-16 w-16"
+      ><img src="../../static/afa.png" /></a
+    >
+    <main>
+      <h1 class="mt-12 mb-4">
+        <a href="/" class="text-gradient">Muchachos</a>
+      </h1>
+      <slot />
+    </main>
     <style is:global>
       :root {
         --accent: 110, 198, 224;
@@ -41,19 +48,31 @@ const { title } = Astro.props;
         color: white;
       }
     </style>
-  </body><style>
-    h1 {
-      font-size: 4rem;
-      font-weight: 700;
-      line-height: 1;
-      text-align: center;
-    }
-    .text-gradient {
-      background-image: var(--accent-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 400%;
-      background-position: 0%;
-    }
-  </style>
+    <style>
+      main {
+        margin: auto;
+        padding: 1rem;
+        width: 1100px;
+        max-width: calc(100% - 2rem);
+        color: white;
+        font-size: 20px;
+        line-height: 1.6;
+      }
+
+      h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+      }
+
+      .text-gradient {
+        background-image: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 400%;
+        background-position: 0%;
+      }
+    </style>
+  </body>
 </html>
