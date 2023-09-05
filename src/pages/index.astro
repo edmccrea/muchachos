@@ -5,8 +5,23 @@ import { playerData } from "../../player-data.ts";
 ---
 
 <Layout title="Muchachos.">
+  <div class="scroll-gradient"></div>
   <PlayerList title="Attackers" players={playerData.attackers} />
   <PlayerList title="Midfielders" players={playerData.midfielders} />
   <PlayerList title="Defenders" players={playerData.defenders} />
   <PlayerList title="Goalkeepers" players={playerData.goalkeepers} />
 </Layout>
+
+<style>
+  .scroll-gradient {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to top, #13151a 0%, transparent 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+</style>
