@@ -1,0 +1,30 @@
+---
+import Card from "./Card.astro";
+interface Props {
+  title: string;
+  players: Player[];
+}
+
+interface Player {
+  href: string;
+  firstName: string;
+  lastName: string;
+  position: string;
+  number: number;
+  caps: number;
+  team: string;
+  image: string;
+}
+
+const { title, players } = Astro.props;
+---
+
+<div class="mb-8 mt-16 relative">
+  <h2 class="text-5xl text-neutral-200/50 absolute -top-9">{title}</h2>
+  <ul
+    role="list"
+    class="link-card-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+  >
+    {players.map((player) => <Card {...player} />)}
+  </ul>
+</div>

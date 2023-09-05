@@ -28,17 +28,14 @@ const { href, firstName, lastName, position, team, number, caps, image } =
       />
       <div class="flex justify-between items-center p-4">
         <div>
-          <h2 transition:name={`firstName-${number}`} class="text-2xl">
+          <h2 class="text-2xl" transition:name={`firstName-${number}`}>
             {firstName}
           </h2>
-          <h2 transition:name={`lastName-${number}`} class="text-2xl">
+          <h2 class="text-2xl">
             {lastName}
           </h2>
         </div>
-        <p
-          class="text-5xl text-slate-300/20"
-          transition:name={`details-${number}`}
-        >
+        <p class="text-5xl text-slate-300/20">
           {number}
         </p>
       </div>

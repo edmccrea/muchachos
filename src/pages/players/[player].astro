@@ -1,27 +1,32 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { playerData } from "../../../player-data";
 
 export function getStaticPaths() {
-  return [
-    { params: { player: "lionel-messi" } },
-    { params: { player: "angel-dimaria" } },
-    { params: { player: "julian-alvarez" } },
-    { params: { player: "lautaro-martinez" } },
-    { params: { player: "enzo-fernandez" } },
-    { params: { player: "rodrigo-depaul" } },
-  ];
+  const flattenedPlayers = Object.values(playerData).flat();
+  return flattenedPlayers.map((player) => ({
+    params: { player: player.href.split("/")[2] },
+  }));
 }
 
-const { player } = Astro.params;
+const { player: playerParam } = Astro.params;
+const player = Object.values(playerData)
+  .flat()
+  .find((player) => player.href.split("/")[2] === playerParam);
 ---
 
-<Layout title=`${player} | Muchachos`>
+<Layout title={`${player?.firstName} ${player?.lastName} | Muchachos`}>
   <img
-    src="https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg"
+    src={player?.image}
     alt=""
-    transition:name="img-10"
+    transition:name=`img-${player?.number}}`
     class="h-[400px] object-cover"
   />
-  <h1 class="text-4xl" transition:name="firstName-10">Lionel</h1>
-  <p transition:name="details-10">#10 | RW</p>
+  <h2 class="text-4xl" transition:name=`firstName-${player?.number}`>
+    {player?.firstName}
+  </h2>
+  <h2 class="text-4xl" transition:name=`lastName-${player?.number}`>
+    {player?.lastName}
+  </h2>
+  <p>#{player?.number} | {player?.position}</p>
 </Layout>
