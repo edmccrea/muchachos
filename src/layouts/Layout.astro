@@ -24,8 +24,10 @@ const { title } = Astro.props;
       ><img src="/afa.png" /></a
     >
     <main>
-      <h1 class="mt-12 mb-4">
-        <a href="/" class="text-gradient">Muchachos</a>
+      <h1
+        class="mt-20 md:mt-12 mb-4 text-5xl md:text-7xl font-bold text-gradient"
+      >
+        Muchachos
       </h1>
       <slot />
     </main>
@@ -60,8 +62,6 @@ const { title } = Astro.props;
       }
 
       h1 {
-        font-size: 4rem;
-        font-weight: 700;
         line-height: 1;
         text-align: center;
       }

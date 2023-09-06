@@ -26,7 +26,7 @@ const { href, firstName, lastName, position, team, number, caps, image } =
         class="w-full h-[80%] object-cover rounded-t-lg"
         transition:name={`img-${number}`}
       />
-      <div class="flex justify-between items-center p-4">
+      <div class="flex justify-between items-center p-4 relative">
         <div>
           <h2 class="text-2xl" transition:name={`firstName-${number}`}>
             {firstName}
@@ -36,7 +36,7 @@ const { href, firstName, lastName, position, team, number, caps, image } =
           </h2>
         </div>
         <p
-          class="text-5xl text-slate-300/20"
+          class="text-5xl text-slate-300/20 absolute right-2 md:relative"
           transition:name={`number-${number}`}
         >
           {number}
