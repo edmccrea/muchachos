@@ -22,14 +22,11 @@ const player = Object.values(playerData)
     transition:name=`img-${player?.number}}`
     class="h-[400px] object-cover"
   />
-  <h2 class="text-4xl" transition:name=`firstName-${player?.number}`>
-    {player?.firstName}
-  </h2>
-  <h2 class="text-4xl" transition:name=`lastName-${player?.number}`>
-    {player?.lastName}
+  <h2 class="text-4xl" transition:name=`${player?.href}-name`>
+    {player?.firstName}&nbsp;{player?.lastName}
   </h2>
   <p>
     #<span transition:name={`number-${player?.number}`}>{player?.number}</span>
-    | {player?.position}
+     | {player?.position}
   </p>
 </Layout>
