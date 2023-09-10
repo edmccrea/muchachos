@@ -16,17 +16,22 @@ const player = Object.values(playerData)
 ---
 
 <Layout title={`${player?.firstName} ${player?.lastName} | Muchachos`}>
-  <img
-    src={player?.image}
-    alt=""
-    transition:name=`img-${player?.number}}`
-    class="h-[400px] object-cover"
-  />
-  <h2 class="text-4xl" transition:name=`${player?.href}-name`>
-    {player?.firstName}&nbsp;{player?.lastName}
-  </h2>
-  <p>
-    #<span transition:name={`number-${player?.number}`}>{player?.number}</span>
-     | {player?.position}
-  </p>
+  <div class="grid grid-cols-2">
+    <img
+      src={player?.image}
+      alt=""
+      transition:name=`img-${player?.number}}`
+      class="h-[400px] object-cover rounded-md"
+    />
+    <div class="relative">
+      <h2 class="text-4xl pt-6" transition:animate="slide">
+        <span class="leading-9">{player?.firstName}</span><br />
+        <span class="text-6xl leading-10">{player?.lastName}</span>
+      </h2>
+      <span
+        class="absolute top-0 text-[11em] text-slate-300/20 font-bold leading-none"
+        >{player?.number}</span
+      >
+    </div>
+  </div>
 </Layout>
