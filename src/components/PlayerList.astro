@@ -5,6 +5,7 @@ interface Props {
   players: Player[];
 }
 
+//TODO: Move this into a type file and have a base player type and extend it for the different positions
 interface Player {
   href: string;
   firstName: string;
@@ -13,7 +14,50 @@ interface Player {
   number: number;
   caps: number;
   team: string;
+  clubLogo: string;
   image: string;
+  age: number;
+  foot: string;
+  tournamentStats: {
+    gamesPlayed: number;
+    asSubstitute: number;
+    goals?: number;
+    assists?: number;
+    averageRating?: number | null;
+    goalsConceded?: number;
+    saves?: number;
+    cards?: {
+      yellow: number;
+      red: number;
+    };
+    passes?: {
+      total: number;
+      key: number;
+      accuracy: number;
+    };
+    dribbles?: {
+      attempts: number;
+      success: number;
+    };
+    duels?: {
+      total: number;
+      won: number;
+    };
+    shots?: {
+      total: number;
+      on: number;
+    };
+    fouls?: {
+      drawn: number;
+      committed: number;
+    };
+    tackles?: {
+      total: number;
+      blocks: number;
+      interceptions: number;
+    };
+    minutesPlayed: number;
+  };
 }
 
 const { title, players } = Astro.props;
