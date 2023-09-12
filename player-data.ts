@@ -9,7 +9,7 @@ export const playerData = {
       caps: 160,
       team: "PSG",
       clubLogo:
-        "https://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
+        "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
       image:
         "https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg",
       age: 35,
