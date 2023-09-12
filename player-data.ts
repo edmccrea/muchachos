@@ -7,8 +7,9 @@ export const playerData = {
       position: "RW",
       number: 10,
       caps: 160,
-      team: "Paris Saint-Germain",
-      clubLogo: "",
+      team: "PSG",
+      clubLogo:
+        "https://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
       image:
         "https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg",
       age: 35,
@@ -55,7 +56,8 @@ export const playerData = {
       number: 11,
       caps: 113,
       team: "Juventus",
-      clubLogo: "",
+      clubLogo:
+        "https://companieslogo.com/img/orig/JUVE.MI.D-041d1d80.png?t=1659935888",
       image:
         "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-12/Angel%20Di%20Maria%20Argentina%20Final%20World%20Cup%20Mundial%202022%20121822%20%281%29.jpg?itok=Un473wAI",
       age: 34,
@@ -102,7 +104,8 @@ export const playerData = {
       number: 9,
       caps: 15,
       team: "Manchester City",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2017/02/manchester-city-fc-logo-escudo-badge.png",
       image:
         "https://img.allfootballapp.com/www/M00/39/7A/CgAGVmOTHlmAA7JTAACRBAFiD_4259.jpg",
       age: 22,
@@ -149,7 +152,8 @@ export const playerData = {
       number: 22,
       caps: 38,
       team: "Inter Milan",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2017/02/inter-milan-logo-4.png",
       image:
         "https://www.bt.com/content/dam/bt/portal/images/articles/sport/world-cup-2022/Martinez6.jpg/jcr:content/renditions/landscape-desktop.764.430.jpg",
       age: 25,
@@ -196,7 +200,8 @@ export const playerData = {
       number: 21,
       caps: 50,
       team: "AS Roma",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2017/03/as-roma-logo.png",
       image:
         "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/12/2022-12-18T180359Z_2130738295_UP1EICI1E6MXR_RTRMADP_3_SOCCER-WORLDCUP-ARG-FRA-REPORT.jpg",
       age: 30,
@@ -243,7 +248,8 @@ export const playerData = {
       number: 15,
       caps: 50,
       team: "Atletico Madrid",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
       image:
         "https://cdn.vox-cdn.com/thumbor/JNJ1Cd33xuDhbaKVcNqjcETj868=/0x0:5323x3542/1200x0/filters:focal(0x0:5323x3542):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/24300859/1450125491.jpg",
       age: 27,
@@ -292,7 +298,8 @@ export const playerData = {
       number: 24,
       caps: 15,
       team: "Benfica",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/sco/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png",
       image:
         "https://mundoalbiceleste.com/wp-content/uploads/2022/11/enzo-fernandez-argentina-national-team-goal-mexico-world-cup.jpg",
       age: 21,
@@ -344,7 +351,8 @@ export const playerData = {
       number: 7,
       caps: 50,
       team: "Atletico Madrid",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
       image:
         "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0e9953a760420a18/63923f382d164f58acba94a9/GettyImages-1446630221.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       age: 28,
@@ -396,7 +404,8 @@ export const playerData = {
       number: 20,
       caps: 15,
       team: "Brighton & Hove Albion",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2019/10/brighton-hove-albion-logo-1.png",
       image:
         "https://i2-prod.irishmirror.ie/incoming/article28736350.ece/ALTERNATES/s615/0_GettyImages-1449038025.jpg",
       age: 25,
@@ -448,7 +457,8 @@ export const playerData = {
       number: 5,
       caps: 50,
       team: "Juventus",
-      clubLogo: "",
+      clubLogo:
+        "https://companieslogo.com/img/orig/JUVE.MI.D-041d1d80.png?t=1659935888",
       image:
         "https://gumlet.assettype.com/freepressjournal/2022-12/0a4d5a3a-dd28-40bb-aa85-8330deb6fd6c/parades.jpg",
       age: 28,
@@ -500,7 +510,8 @@ export const playerData = {
       number: 14,
       caps: 15,
       team: "Bayer Leverkusen",
-      clubLogo: "",
+      clubLogo:
+        "https://assets.stickpng.com/images/584d8651367b6a13e54477d1.png",
       image:
         "https://images.teamtalk.com/content/uploads/2023/08/30095531/exequiel-palacios-holds-off-marko-livaja-during-argentina-vs-croatia.jpg",
       age: 25,
@@ -552,7 +563,8 @@ export const playerData = {
       number: 18,
       caps: 15,
       team: "Real Betis",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2023/05/real-betis-logo.png",
       image:
         "https://cdn1.molineux.news/uploads/2/2023/07/GettyImages-1245123680-1024x683.jpg",
       age: 28,
@@ -604,7 +616,8 @@ export const playerData = {
       number: 17,
       caps: 50,
       team: "Sevilla",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
       image:
         "https://mundoalbiceleste.com/wp-content/uploads/2022/12/alejandro-papu-gomez-argentina-national-team-australia-world-cup.jpg",
       age: 34,
@@ -656,7 +669,8 @@ export const playerData = {
       number: 16,
       caps: 1,
       team: "Atlanta United",
-      clubLogo: "",
+      clubLogo:
+        "https://cdn.freebiesupply.com/images/large/2x/atlanta-united-fc-logo-transparent.png",
       image:
         "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-atl-prd/injawnpswtmjowgntt7l.jpg",
       age: 21,
@@ -710,7 +724,8 @@ export const playerData = {
       number: 13,
       caps: 15,
       team: "Tottenham Hotspur",
-      clubLogo: "",
+      clubLogo:
+        "https://www.toptacular.co.uk/wp-content/uploads/2019/09/Tottenham-Badge-200mm-Wafer-Cake.png",
       image:
         "https://d3nfwcxd527z59.cloudfront.net/content/uploads/2022/12/19103710/kylian-mbappe-argentina-752x428.jpg",
       age: 24,
@@ -762,7 +777,8 @@ export const playerData = {
       number: 19,
       caps: 50,
       team: "Benfica",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/sco/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png",
       image:
         "https://www.the-sun.com/wp-content/uploads/sites/6/2022/12/crop-20710395.jpg?strip=all&quality=100&w=1920&h=1440&crop=1",
       age: 34,
@@ -814,7 +830,8 @@ export const playerData = {
       number: 8,
       caps: 50,
       team: "Sevilla",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
       image:
         "https://i2-prod.birminghammail.co.uk/sport/football/football-news/article25630790.ece/ALTERNATES/s615/0_JS284816800.jpg",
       age: 32,
@@ -866,7 +883,8 @@ export const playerData = {
       number: 4,
       caps: 15,
       team: "Sevilla",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
       image:
         "https://sevillafc.es/sites/default/files/news/image/montielpenalti.jpg",
       age: 25,
@@ -918,7 +936,8 @@ export const playerData = {
       number: 26,
       caps: 15,
       team: "Atletico Madrid",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
       image:
         "https://digitalhub.fifa.com/transform/8569b608-ad82-49ea-ae97-8bcc8ac760ea/Netherlands-v-Argentina-Quarter-Final-FIFA-World-Cup-Qatar-2022",
       age: 24,
@@ -970,7 +989,8 @@ export const playerData = {
       number: 25,
       caps: 15,
       team: "Manchester United",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/hif/f/ff/Manchester_United_FC_crest.png",
       image:
         "https://weallfollowunited.com/wp-content/uploads/2022/11/argentina-v-mexico-group-c-fifa-world-cup-qatar-2022-scaled.jpg",
       age: 24,
@@ -1022,7 +1042,8 @@ export const playerData = {
       number: 3,
       caps: 50,
       team: "Ajax",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/sco/thumb/7/79/Ajax_Amsterdam.svg/1017px-Ajax_Amsterdam.svg.png",
       image:
         "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/cb89e0e7-b1be-477a-8536-d632d6ca192a.jpg",
       age: 30,
@@ -1074,7 +1095,8 @@ export const playerData = {
       number: 6,
       caps: 15,
       team: "Fiorentina",
-      clubLogo: "",
+      clubLogo:
+        "https://assets.stickpng.com/images/584ab10b30d6736bca3d6e1d.png",
       image:
         "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltae1c662e7b49b2aa/6393b6275acaa15c640655b6/pezzella.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       age: 31,
@@ -1126,7 +1148,8 @@ export const playerData = {
       number: 2,
       caps: 15,
       team: "Villarreal",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
       image:
         "https://cdn.vox-cdn.com/thumbor/ocpdJlBHEPqRC5Xon9vmtxusLmE=/20x40:2333x1825/1200x800/filters:focal(1265x1064:1637x1436)/cdn.vox-cdn.com/uploads/chorus_image/image/71766821/1245716638.0.jpg",
       age: 24,
@@ -1180,7 +1203,8 @@ export const playerData = {
       number: 23,
       caps: 15,
       team: "Aston Villa",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png",
       image:
         "https://i.dailymail.co.uk/1s/2022/12/18/18/65708013-11551657-image-a-1_1671387302430.jpg",
       age: 30,
@@ -1206,7 +1230,8 @@ export const playerData = {
       number: 1,
       caps: 15,
       team: "River Plate",
-      clubLogo: "",
+      clubLogo:
+        "https://logodownload.org/wp-content/uploads/2015/05/river-plate-logo-6.png",
       image:
         "https://fotos.perfil.com/2023/02/02/trim/1140/641/franco-armani-1502482.jpg",
       age: 37,
@@ -1232,7 +1257,8 @@ export const playerData = {
       number: 12,
       caps: 15,
       team: "Villarreal",
-      clubLogo: "",
+      clubLogo:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
       image:
         "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fwp-images.onefootball.com%2Fwp-content%2Fuploads%2Fsites%2F10%2F2023%2F01%2FArgentina-v-France-Final-FIFA-World-Cup-Qatar-2022-1673032177-1000x699.jpg",
       age: 30,
