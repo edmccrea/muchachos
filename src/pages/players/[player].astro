@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Foot from "../../components/Foot.astro";
 import { playerData } from "../../../player-data";
 
 export function getStaticPaths() {
@@ -53,7 +54,7 @@ const mappedCareerStats = careerStats.map(([name, value]) => {
           </div>
 
           <div class="flex gap-x-8 gap-y-1 border-b-2 border-b-slate-300/20 pb-4 flex-wrap">
-            <span>{player.foot}</span>
+            <Foot foot={player.foot} />
             <span class="text-slate-300/20">|</span>
             <span>{player.position}</span>
             <span class="text-slate-300/20">|</span>
@@ -69,7 +70,7 @@ const mappedCareerStats = careerStats.map(([name, value]) => {
             <h2 class="text-slate-300/50">National Team Stats</h2>
             <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
               {mappedCareerStats.map(([name, value]) => (
-                <div class="p-4 bg-slate-400/20 w-fit rounded-md">
+                <div class="px-4 py-2 bg-slate-400/20 w-fit rounded-md">
                   <h3 class="text-sm">{name}</h3>
                   <p class="font-bold text-4xl">{value}</p>
                 </div>
