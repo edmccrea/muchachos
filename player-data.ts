@@ -6,7 +6,6 @@ export const playerData = {
       lastName: "Messi",
       position: "RW",
       number: 10,
-      caps: 160,
       team: "PSG",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
@@ -14,6 +13,12 @@ export const playerData = {
         "https://media.newyorker.com/photos/63a0b8e018f0244bba9fd613/master/w_2560%2Cc_limit/Mochkofsky-Messi.jpg",
       age: 35,
       foot: "left",
+      careerStats: {
+        apps: 176,
+        goals: 104,
+        assists: 56,
+        debut: "2005-08-17",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 0,
@@ -54,7 +59,6 @@ export const playerData = {
       lastName: "Di Maria",
       position: "LW",
       number: 11,
-      caps: 113,
       team: "Juventus",
       clubLogo:
         "https://companieslogo.com/img/orig/JUVE.MI.D-041d1d80.png?t=1659935888",
@@ -62,6 +66,12 @@ export const playerData = {
         "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/12/18/16713891949677.jpg",
       age: 34,
       foot: "left",
+      careerStats: {
+        apps: 133,
+        goals: 28,
+        assists: 29,
+        debut: "2008-09-06",
+      },
       tournamentStats: {
         gamesPlayed: 5,
         asSubstitute: 1,
@@ -102,7 +112,6 @@ export const playerData = {
       lastName: "Alvarez",
       position: "ST",
       number: 9,
-      caps: 15,
       team: "Manchester City",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2017/02/manchester-city-fc-logo-escudo-badge.png",
@@ -110,6 +119,12 @@ export const playerData = {
         "https://digitalhub.fifa.com/transform/5ba5591e-66c3-497e-b78b-a298658b90b6/Julian-Alvarez-Argentina",
       age: 22,
       foot: "right",
+      careerStats: {
+        apps: 23,
+        goals: 7,
+        assists: 1,
+        debut: "2021-07-04",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 2,
@@ -150,7 +165,6 @@ export const playerData = {
       lastName: "Martinez",
       position: "ST",
       number: 22,
-      caps: 38,
       team: "Inter Milan",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2017/02/inter-milan-logo-4.png",
@@ -158,6 +172,12 @@ export const playerData = {
         "https://www.rionegro.com.ar/wp-content/uploads/2022/12/toro-lautaro.jpg",
       age: 25,
       foot: "right",
+      careerStats: {
+        apps: 49,
+        goals: 20,
+        assists: 7,
+        debut: "2018-03-27",
+      },
       tournamentStats: {
         gamesPlayed: 6,
         asSubstitute: 4,
@@ -198,7 +218,6 @@ export const playerData = {
       lastName: "Dybala",
       position: "ST",
       number: 21,
-      caps: 50,
       team: "AS Roma",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2017/03/as-roma-logo.png",
@@ -206,6 +225,12 @@ export const playerData = {
         "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/12/2022-12-18T180359Z_2130738295_UP1EICI1E6MXR_RTRMADP_3_SOCCER-WORLDCUP-ARG-FRA-REPORT.jpg",
       age: 30,
       foot: "left",
+      careerStats: {
+        apps: 38,
+        goals: 3,
+        assists: 7,
+        debut: "2015-10-14",
+      },
       tournamentStats: {
         gamesPlayed: 2,
         asSubstitute: 2,
@@ -246,7 +271,6 @@ export const playerData = {
       lastName: "Correa",
       position: "ST",
       number: 15,
-      caps: 50,
       team: "Atletico Madrid",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
@@ -254,6 +278,12 @@ export const playerData = {
         "https://cdn.vox-cdn.com/thumbor/JNJ1Cd33xuDhbaKVcNqjcETj868=/0x0:5323x3542/1200x0/filters:focal(0x0:5323x3542):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/24300859/1450125491.jpg",
       age: 27,
       foot: "right",
+      careerStats: {
+        apps: 23,
+        goals: 3,
+        assists: 0,
+        debut: "2015-09-05",
+      },
       tournamentStats: {
         gamesPlayed: 1,
         asSubstitute: 1,
@@ -296,7 +326,6 @@ export const playerData = {
       lastName: "Fernandez",
       position: "CM",
       number: 24,
-      caps: 15,
       team: "Benfica",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/sco/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png",
@@ -304,6 +333,12 @@ export const playerData = {
         "https://icdn.empireofthekop.com/wp-content/uploads/2022/11/argentina-v-mexico-group-c-fifa-world-cup-qatar-2022.jpg",
       age: 21,
       foot: "right",
+      careerStats: {
+        apps: 15,
+        goals: 3,
+        assists: 2,
+        debut: "2022-09-24",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 2,
@@ -349,7 +384,6 @@ export const playerData = {
       lastName: "De Paul",
       position: "CM",
       number: 7,
-      caps: 50,
       team: "Atletico Madrid",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
@@ -357,6 +391,12 @@ export const playerData = {
         "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0e9953a760420a18/63923f382d164f58acba94a9/GettyImages-1446630221.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       age: 28,
       foot: "right",
+      careerStats: {
+        apps: 56,
+        goals: 2,
+        assists: 7,
+        debut: "2018-10-11",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 0,
@@ -402,7 +442,6 @@ export const playerData = {
       lastName: "Mac Allister",
       position: "CM",
       number: 20,
-      caps: 15,
       team: "Brighton",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2019/10/brighton-hove-albion-logo-1.png",
@@ -410,6 +449,12 @@ export const playerData = {
         "https://www.telegraph.co.uk/content/dam/football/2023/01/02/TELEMMGLPICT000320073787_trans_NvBQzQNjv4Bqwa5Jnl6ZbmW0SCmJ33EhWF5NUcTKNHKqy85KLqtvPLE.jpeg",
       age: 24,
       foot: "right",
+      careerStats: {
+        apps: 19,
+        goals: 1,
+        assists: 2,
+        debut: "2019-09-06",
+      },
       tournamentStats: {
         gamesPlayed: 6,
         asSubstitute: 0,
@@ -455,7 +500,6 @@ export const playerData = {
       lastName: "Paredes",
       position: "CM",
       number: 5,
-      caps: 50,
       team: "Juventus",
       clubLogo:
         "https://companieslogo.com/img/orig/JUVE.MI.D-041d1d80.png?t=1659935888",
@@ -463,6 +507,12 @@ export const playerData = {
         "https://gumlet.assettype.com/freepressjournal/2022-12/0a4d5a3a-dd28-40bb-aa85-8330deb6fd6c/parades.jpg",
       age: 28,
       foot: "right",
+      careerStats: {
+        apps: 56,
+        goals: 5,
+        assists: 7,
+        debut: "2017-06-13",
+      },
       tournamentStats: {
         gamesPlayed: 5,
         asSubstitute: 3,
@@ -508,7 +558,6 @@ export const playerData = {
       lastName: "Palacios",
       position: "CM",
       number: 14,
-      caps: 15,
       team: "Bayer Leverkusen",
       clubLogo:
         "https://assets.stickpng.com/images/584d8651367b6a13e54477d1.png",
@@ -516,6 +565,12 @@ export const playerData = {
         "https://staticg.sportskeeda.com/editor/2023/04/55a75-16808523837428-1920.jpg",
       age: 25,
       foot: "right",
+      careerStats: {
+        apps: 27,
+        goals: 0,
+        assists: 4,
+        debut: "2018-09-08",
+      },
       tournamentStats: {
         gamesPlayed: 3,
         asSubstitute: 3,
@@ -561,7 +616,6 @@ export const playerData = {
       lastName: "Rodriguez",
       position: "CM",
       number: 18,
-      caps: 15,
       team: "Real Betis",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2023/05/real-betis-logo.png",
@@ -569,6 +623,12 @@ export const playerData = {
         "https://cdn1.molineux.news/uploads/2/2023/07/GettyImages-1245123680-1024x683.jpg",
       age: 28,
       foot: "right",
+      careerStats: {
+        apps: 29,
+        goals: 1,
+        assists: 1,
+        debut: "2017-06-09",
+      },
       tournamentStats: {
         gamesPlayed: 1,
         asSubstitute: 0,
@@ -614,7 +674,6 @@ export const playerData = {
       lastName: "Gomez",
       position: "CAM",
       number: 17,
-      caps: 50,
       team: "Sevilla",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
@@ -622,6 +681,12 @@ export const playerData = {
         "https://img.asmedia.epimg.net/resizer/R2pTjyFqIA1RNH0Qy0s99OqyNVA=/1472x1104/filters:focal(2735x1535:2745x1545)/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/4BJAF4MV3APNAQJ66XJO5JPNOA.jpg",
       age: 34,
       foot: "right",
+      careerStats: {
+        apps: 16,
+        goals: 3,
+        assists: 4,
+        debut: "2017-06-13",
+      },
       tournamentStats: {
         gamesPlayed: 2,
         asSubstitute: 0,
@@ -667,7 +732,6 @@ export const playerData = {
       lastName: "Almada",
       position: "CAM",
       number: 16,
-      caps: 1,
       team: "Atlanta United",
       clubLogo:
         "https://cdn.freebiesupply.com/images/large/2x/atlanta-united-fc-logo-transparent.png",
@@ -675,6 +739,12 @@ export const playerData = {
         "https://imageio.forbes.com/specials-images/imageserve/639e398d944505d33436e6af/0x0.jpg?format=jpg&crop=2817,1585,x647,y0,safe&width=1200",
       age: 21,
       foot: "right",
+      careerStats: {
+        apps: 4,
+        goals: 1,
+        assists: 0,
+        debut: "2022-09-24",
+      },
       tournamentStats: {
         gamesPlayed: 1,
         asSubstitute: 1,
@@ -722,7 +792,6 @@ export const playerData = {
       lastName: "Romero",
       position: "CB",
       number: 13,
-      caps: 15,
       team: "Tottenham",
       clubLogo:
         "https://www.toptacular.co.uk/wp-content/uploads/2019/09/Tottenham-Badge-200mm-Wafer-Cake.png",
@@ -730,6 +799,12 @@ export const playerData = {
         "https://www.irishexaminer.com/cms_media/module_img/6717/3358865_1_seoimage4x3_2.70315068.jpg.jpg",
       age: 24,
       foot: "right",
+      careerStats: {
+        apps: 24,
+        goals: 2,
+        assists: 0,
+        debut: "2021-06-04",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 1,
@@ -775,7 +850,6 @@ export const playerData = {
       lastName: "Otamendi",
       position: "CB",
       number: 19,
-      caps: 50,
       team: "Benfica",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/sco/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png",
@@ -783,6 +857,12 @@ export const playerData = {
         "https://www.the-sun.com/wp-content/uploads/sites/6/2022/12/crop-20710395.jpg?strip=all&quality=100&w=1920&h=1440&crop=1",
       age: 34,
       foot: "right",
+      careerStats: {
+        apps: 105,
+        goals: 4,
+        assists: 3,
+        debut: "2009-05-20",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 0,
@@ -828,7 +908,6 @@ export const playerData = {
       lastName: "Acuna",
       position: "LB",
       number: 8,
-      caps: 50,
       team: "Sevilla",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
@@ -836,6 +915,12 @@ export const playerData = {
         "https://www.thesun.co.uk/wp-content/uploads/2022/12/argentinas-marcos-acuna-kicks-ball-778517494.jpg",
       age: 32,
       foot: "left",
+      careerStats: {
+        apps: 53,
+        goals: 0,
+        assists: 7,
+        debut: "2016-11-16",
+      },
       tournamentStats: {
         gamesPlayed: 6,
         asSubstitute: 2,
@@ -881,7 +966,6 @@ export const playerData = {
       lastName: "Montiel",
       position: "RB",
       number: 4,
-      caps: 15,
       team: "Sevilla",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2018/11/sevilla-fc-logo.png",
@@ -889,6 +973,12 @@ export const playerData = {
         "https://sevillafc.es/sites/default/files/news/image/montielpenalti.jpg",
       age: 25,
       foot: "right",
+      careerStats: {
+        apps: 23,
+        goals: 1,
+        assists: 0,
+        debut: "2019-03-22",
+      },
       tournamentStats: {
         gamesPlayed: 4,
         asSubstitute: 3,
@@ -934,7 +1024,6 @@ export const playerData = {
       lastName: "Molina",
       position: "RB",
       number: 26,
-      caps: 15,
       team: "Atletico Madrid",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png",
@@ -942,6 +1031,12 @@ export const playerData = {
         "https://digitalhub.fifa.com/transform/8569b608-ad82-49ea-ae97-8bcc8ac760ea/Netherlands-v-Argentina-Quarter-Final-FIFA-World-Cup-Qatar-2022",
       age: 24,
       foot: "right",
+      careerStats: {
+        apps: 31,
+        goals: 1,
+        assists: 3,
+        debut: "2021-06-04",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 1,
@@ -987,7 +1082,6 @@ export const playerData = {
       lastName: "Martinez",
       position: "CB",
       number: 25,
-      caps: 15,
       team: "Manchester United",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/hif/f/ff/Manchester_United_FC_crest.png",
@@ -995,6 +1089,12 @@ export const playerData = {
         "https://weallfollowunited.com/wp-content/uploads/2022/11/argentina-v-mexico-group-c-fifa-world-cup-qatar-2022-scaled.jpg",
       age: 24,
       foot: "left",
+      careerStats: {
+        apps: 15,
+        goals: 0,
+        assists: 0,
+        debut: "2019-03-22",
+      },
       tournamentStats: {
         gamesPlayed: 5,
         asSubstitute: 3,
@@ -1040,7 +1140,6 @@ export const playerData = {
       lastName: "Tagliafico",
       position: "LB",
       number: 3,
-      caps: 50,
       team: "Ajax",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/sco/thumb/7/79/Ajax_Amsterdam.svg/1017px-Ajax_Amsterdam.svg.png",
@@ -1048,6 +1147,12 @@ export const playerData = {
         "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/cb89e0e7-b1be-477a-8536-d632d6ca192a.jpg",
       age: 30,
       foot: "left",
+      careerStats: {
+        apps: 50,
+        goals: 1,
+        assists: 0,
+        debut: "2017-06-09",
+      },
       tournamentStats: {
         gamesPlayed: 6,
         asSubstitute: 3,
@@ -1093,7 +1198,6 @@ export const playerData = {
       lastName: "Pezzella",
       position: "CB",
       number: 6,
-      caps: 15,
       team: "Fiorentina",
       clubLogo:
         "https://assets.stickpng.com/images/584ab10b30d6736bca3d6e1d.png",
@@ -1101,6 +1205,12 @@ export const playerData = {
         "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltae1c662e7b49b2aa/6393b6275acaa15c640655b6/pezzella.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       age: 31,
       foot: "right",
+      careerStats: {
+        apps: 38,
+        goals: 3,
+        assists: 0,
+        debut: "2017-11-11",
+      },
       tournamentStats: {
         gamesPlayed: 3,
         asSubstitute: 3,
@@ -1146,7 +1256,6 @@ export const playerData = {
       lastName: "Foyth",
       position: "CB",
       number: 2,
-      caps: 15,
       team: "Villarreal",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
@@ -1154,6 +1263,12 @@ export const playerData = {
         "https://cdn.vox-cdn.com/thumbor/ocpdJlBHEPqRC5Xon9vmtxusLmE=/20x40:2333x1825/1200x800/filters:focal(1265x1064:1637x1436)/cdn.vox-cdn.com/uploads/chorus_image/image/71766821/1245716638.0.jpg",
       age: 24,
       foot: "right",
+      careerStats: {
+        apps: 18,
+        goals: 0,
+        assists: 0,
+        debut: "2018-11-17",
+      },
       tournamentStats: {
         gamesPlayed: 1,
         asSubstitute: 1,
@@ -1201,7 +1316,6 @@ export const playerData = {
       lastName: "Martinez",
       position: "GK",
       number: 23,
-      caps: 15,
       team: "Aston Villa",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png",
@@ -1209,11 +1323,17 @@ export const playerData = {
         "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1222%2Fr1109799_1296x729_16%2D9.jpg",
       age: 30,
       foot: "right",
+      careerStats: {
+        apps: 31,
+        cleanSheets: 23,
+        goalsConceded: 12,
+        debut: "2021-06-04",
+      },
       tournamentStats: {
         gamesPlayed: 7,
         asSubstitute: 0,
         averageRating: 6.8,
-        goalsConceded: 8,
+        goalsConceeded: 8,
         saves: 7,
         cards: {
           yellow: 1,
@@ -1228,7 +1348,6 @@ export const playerData = {
       lastName: "Armani",
       position: "GK",
       number: 1,
-      caps: 15,
       team: "River Plate",
       clubLogo:
         "https://logodownload.org/wp-content/uploads/2015/05/river-plate-logo-6.png",
@@ -1236,11 +1355,17 @@ export const playerData = {
         "https://fotos.perfil.com/2023/02/02/trim/1140/641/franco-armani-1502482.jpg",
       age: 37,
       foot: "right",
+      careerStats: {
+        apps: 19,
+        cleanSheets: 8,
+        goalsConceded: 18,
+        debut: "2018-06-26",
+      },
       tournamentStats: {
         gamesPlayed: 0,
         asSubstitute: 0,
         averageRating: null,
-        goalsConceded: 0,
+        goalsConceeded: 0,
         saves: 0,
         cards: {
           yellow: 0,
@@ -1255,13 +1380,18 @@ export const playerData = {
       lastName: "Rulli",
       position: "GK",
       number: 12,
-      caps: 15,
       team: "Villarreal",
       clubLogo:
         "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Villarreal_CF_logo-en.svg/1200px-Villarreal_CF_logo-en.svg.png",
       image: "https://assets-es.imgfoot.com/geronimo-rulli-2223.jpg",
       age: 30,
       foot: "right",
+      careerStats: {
+        apps: 4,
+        cleanSheets: 3,
+        goalsConceeded: 1,
+        debut: "2018-09-08",
+      },
       tournamentStats: {
         gamesPlayed: 0,
         asSubstitute: 0,
