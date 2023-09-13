@@ -2,16 +2,12 @@
 interface Props {
   firstName: string;
   lastName: string;
-  position: string;
   number: number;
-  caps: number;
-  team: string;
   href: string;
   image: string;
 }
 
-const { href, firstName, lastName, position, team, number, caps, image } =
-  Astro.props;
+const { href, firstName, lastName, number, image } = Astro.props;
 ---
 
 <li class="link-card flex list-none bg-[#23262d] rounded-lg">
