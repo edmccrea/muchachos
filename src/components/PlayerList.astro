@@ -12,12 +12,19 @@ interface Player {
   lastName: string;
   position: string;
   number: number;
-  caps: number;
   team: string;
   clubLogo: string;
   image: string;
   age: number;
   foot: string;
+  careerStats: {
+    apps: number;
+    goals?: number;
+    assists?: number;
+    cleanSheets?: number;
+    goalsConceded?: number;
+    debut: string;
+  };
   tournamentStats: {
     gamesPlayed: number;
     asSubstitute: number;
