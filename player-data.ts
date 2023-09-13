@@ -17,7 +17,6 @@ export const playerData = {
         apps: 176,
         goals: 104,
         assists: 56,
-        debut: "2005-08-17",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -70,7 +69,6 @@ export const playerData = {
         apps: 133,
         goals: 28,
         assists: 29,
-        debut: "2008-09-06",
       },
       tournamentStats: {
         gamesPlayed: 5,
@@ -123,7 +121,6 @@ export const playerData = {
         apps: 23,
         goals: 7,
         assists: 1,
-        debut: "2021-07-04",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -176,7 +173,6 @@ export const playerData = {
         apps: 49,
         goals: 20,
         assists: 7,
-        debut: "2018-03-27",
       },
       tournamentStats: {
         gamesPlayed: 6,
@@ -229,7 +225,6 @@ export const playerData = {
         apps: 38,
         goals: 3,
         assists: 7,
-        debut: "2015-10-14",
       },
       tournamentStats: {
         gamesPlayed: 2,
@@ -282,7 +277,6 @@ export const playerData = {
         apps: 23,
         goals: 3,
         assists: 0,
-        debut: "2015-09-05",
       },
       tournamentStats: {
         gamesPlayed: 1,
@@ -337,7 +331,6 @@ export const playerData = {
         apps: 15,
         goals: 3,
         assists: 2,
-        debut: "2022-09-24",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -395,7 +388,6 @@ export const playerData = {
         apps: 56,
         goals: 2,
         assists: 7,
-        debut: "2018-10-11",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -453,7 +445,6 @@ export const playerData = {
         apps: 19,
         goals: 1,
         assists: 2,
-        debut: "2019-09-06",
       },
       tournamentStats: {
         gamesPlayed: 6,
@@ -511,7 +502,6 @@ export const playerData = {
         apps: 56,
         goals: 5,
         assists: 7,
-        debut: "2017-06-13",
       },
       tournamentStats: {
         gamesPlayed: 5,
@@ -569,7 +559,6 @@ export const playerData = {
         apps: 27,
         goals: 0,
         assists: 4,
-        debut: "2018-09-08",
       },
       tournamentStats: {
         gamesPlayed: 3,
@@ -627,7 +616,6 @@ export const playerData = {
         apps: 29,
         goals: 1,
         assists: 1,
-        debut: "2017-06-09",
       },
       tournamentStats: {
         gamesPlayed: 1,
@@ -685,7 +673,6 @@ export const playerData = {
         apps: 16,
         goals: 3,
         assists: 4,
-        debut: "2017-06-13",
       },
       tournamentStats: {
         gamesPlayed: 2,
@@ -743,7 +730,6 @@ export const playerData = {
         apps: 4,
         goals: 1,
         assists: 0,
-        debut: "2022-09-24",
       },
       tournamentStats: {
         gamesPlayed: 1,
@@ -803,7 +789,6 @@ export const playerData = {
         apps: 24,
         goals: 2,
         assists: 0,
-        debut: "2021-06-04",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -861,7 +846,6 @@ export const playerData = {
         apps: 105,
         goals: 4,
         assists: 3,
-        debut: "2009-05-20",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -919,7 +903,6 @@ export const playerData = {
         apps: 53,
         goals: 0,
         assists: 7,
-        debut: "2016-11-16",
       },
       tournamentStats: {
         gamesPlayed: 6,
@@ -977,7 +960,6 @@ export const playerData = {
         apps: 23,
         goals: 1,
         assists: 0,
-        debut: "2019-03-22",
       },
       tournamentStats: {
         gamesPlayed: 4,
@@ -1035,7 +1017,6 @@ export const playerData = {
         apps: 31,
         goals: 1,
         assists: 3,
-        debut: "2021-06-04",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -1093,7 +1074,6 @@ export const playerData = {
         apps: 15,
         goals: 0,
         assists: 0,
-        debut: "2019-03-22",
       },
       tournamentStats: {
         gamesPlayed: 5,
@@ -1151,7 +1131,6 @@ export const playerData = {
         apps: 50,
         goals: 1,
         assists: 0,
-        debut: "2017-06-09",
       },
       tournamentStats: {
         gamesPlayed: 6,
@@ -1209,7 +1188,6 @@ export const playerData = {
         apps: 38,
         goals: 3,
         assists: 0,
-        debut: "2017-11-11",
       },
       tournamentStats: {
         gamesPlayed: 3,
@@ -1267,7 +1245,6 @@ export const playerData = {
         apps: 18,
         goals: 0,
         assists: 0,
-        debut: "2018-11-17",
       },
       tournamentStats: {
         gamesPlayed: 1,
@@ -1327,7 +1304,6 @@ export const playerData = {
         apps: 31,
         cleanSheets: 23,
         goalsConceded: 12,
-        debut: "2021-06-04",
       },
       tournamentStats: {
         gamesPlayed: 7,
@@ -1359,7 +1335,6 @@ export const playerData = {
         apps: 19,
         cleanSheets: 8,
         goalsConceded: 18,
-        debut: "2018-06-26",
       },
       tournamentStats: {
         gamesPlayed: 0,
@@ -1390,7 +1365,6 @@ export const playerData = {
         apps: 4,
         cleanSheets: 3,
         goalsConceeded: 1,
-        debut: "2018-09-08",
       },
       tournamentStats: {
         gamesPlayed: 0,

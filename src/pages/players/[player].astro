@@ -24,19 +24,8 @@ const mappedCareerStats = careerStats.map(([name, value]) => {
     .replace(/([A-Z])/g, " $1")
     .replace(/^./, (str) => str.toUpperCase());
 
-  if (name === "Debut") {
-    value = new Date(value).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-    return [name, value];
-  }
-
   return [name, value];
 });
-
-console.log(mappedCareerStats);
 ---
 
 <Layout title={`${player?.firstName} ${player?.lastName} | Muchachos`}>
@@ -77,7 +66,7 @@ console.log(mappedCareerStats);
           </div>
 
           <div class="mt-4">
-            <h2>National Team Stats</h2>
+            <h2 class="text-slate-300/50">National Team Stats</h2>
             <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
               {mappedCareerStats.map(([name, value]) => (
                 <div class="p-4 bg-slate-400/20 w-fit rounded-md">
@@ -88,8 +77,9 @@ console.log(mappedCareerStats);
             </div>
           </div>
 
-          <div class="flex-1 flex flex-col">
-            <div class="mt-auto flex gap-x-8 gap-y-1 flex-wrap">
+          <div class="flex-1 flex flex-col mt-8">
+            <h2 class="text-slate-300/50">World Cup 2022 Stats</h2>
+            <div class="flex gap-x-8 gap-y-1 flex-wrap">
               <div>
                 <h3 class="text-slate-300/50">Matches</h3>
                 <span class="text-3xl font-bold">
