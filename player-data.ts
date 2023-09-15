@@ -550,7 +550,7 @@ export const playerData = {
       number: 14,
       team: "Bayer Leverkusen",
       clubLogo:
-        "https://assets.stickpng.com/images/584d8651367b6a13e54477d1.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/1200px-Bayer_04_Leverkusen_logo.svg.png",
       image:
         "https://staticg.sportskeeda.com/editor/2023/04/55a75-16808523837428-1920.jpg",
       age: 25,
@@ -1179,7 +1179,7 @@ export const playerData = {
       number: 6,
       team: "Fiorentina",
       clubLogo:
-        "https://assets.stickpng.com/images/584ab10b30d6736bca3d6e1d.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2022_ACF_Fiorentina_logo.svg/1200px-2022_ACF_Fiorentina_logo.svg.png",
       image:
         "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltae1c662e7b49b2aa/6393b6275acaa15c640655b6/pezzella.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       age: 31,
