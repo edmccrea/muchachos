@@ -25,3 +25,48 @@ import { playerData } from "../../player-data.ts";
     pointer-events: none;
   }
 </style>
+
+<script is:inline>
+function handleIntersection(target, callback) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        callback();
+        observer.unobserve(target);
+
+        const cardId = target.getAttribute("data-card-id");
+        const intersectedCards =
+          JSON.parse(sessionStorage.getItem("intersectedCards")) || [];
+        if (!intersectedCards.includes(cardId)) {
+          intersectedCards.push(cardId);
+          sessionStorage.setItem(
+            "intersectedCards",
+            JSON.stringify(intersectedCards)
+          );
+        }
+      }
+    });
+  });
+
+  observer.observe(target);
+}
+
+function handleCardIntersection(card) {
+  const cardId = card.getAttribute("data-card-id");
+  const intersectedCards =
+    JSON.parse(sessionStorage.getItem("intersectedCards")) || [];
+
+  if (!intersectedCards.includes(cardId)) {
+    card.classList.remove("active");
+    handleIntersection(card, () => {
+      card.classList.add("active");
+    });
+  }
+}
+
+const cards = document.querySelectorAll(".link-card");
+
+cards.forEach((card) => {
+  handleCardIntersection(card);
+});
+</script>

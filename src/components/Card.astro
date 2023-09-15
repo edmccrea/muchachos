@@ -5,12 +5,16 @@ interface Props {
   number: number;
   href: string;
   image: string;
+  key: string;
 }
 
-const { href, firstName, lastName, number, image } = Astro.props;
+const { href, firstName, lastName, number, image, key } = Astro.props;
 ---
 
-<li class="link-card flex list-none bg-[#23262d] rounded-lg">
+<li
+  class="link-card flex list-none bg-[#23262d] rounded-lg active"
+  data-card-id={key}
+>
   <a href={href} class="rounded-lg h-[315px] w-full bg-[#23262d]">
     <div class="flex flex-col h-full">
       <img
@@ -39,6 +43,16 @@ const { href, firstName, lastName, number, image } = Astro.props;
     background-size: 400%;
     background-position: 100%;
     transition: background-position 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.5s,
+      transform 0.5s;
+  }
+
+  .link-card.active {
+    opacity: 1;
+    transform: translateY(0);
   }
   .link-card > a {
     text-decoration: none;

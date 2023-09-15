@@ -23,7 +23,6 @@ interface Player {
     assists?: number;
     cleanSheets?: number;
     goalsConceded?: number;
-    debut: string;
   };
   tournamentStats: {
     gamesPlayed: number;
@@ -76,6 +75,6 @@ const { title, players } = Astro.props;
     role="list"
     class="link-card-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
   >
-    {players.map((player) => <Card {...player} />)}
+    {players.map((player) => <Card {...player} key={player.href} />)}
   </ul>
 </div>
