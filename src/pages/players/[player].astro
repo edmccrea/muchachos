@@ -32,13 +32,15 @@ const mappedCareerStats = careerStats.map(([name, value]) => {
 <Layout title={`${player?.firstName} ${player?.lastName} | Muchachos`}>
   {
     player && (
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8 h-4/5">
-        <img
-          src={player.image}
-          alt=""
-          transition:name={`img-${player.number}`}
-          class="object-cover rounded-md h-full"
-        />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8">
+        <div class="max-h-[40vh] md:max-h-[75vh]">
+          <img
+            src={player.image}
+            alt=""
+            transition:name={`img-${player.number}`}
+            class="object-cover rounded-md h-full"
+          />
+        </div>
         <div class="flex flex-col">
           <div class="relative">
             <h2 class="absolute" transition:animate="slide">
