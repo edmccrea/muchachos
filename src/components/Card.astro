@@ -4,11 +4,12 @@ interface Props {
   lastName: string;
   number: number;
   href: string;
-  image: string;
   key: string;
 }
 
-const { href, firstName, lastName, number, image, key } = Astro.props;
+const { href, firstName, lastName, number, key } = Astro.props;
+const slugifiedPlayerName = href.split("/")[2];
+console.log(slugifiedPlayerName);
 ---
 
 <li
@@ -18,7 +19,7 @@ const { href, firstName, lastName, number, image, key } = Astro.props;
   <a href={href} class="rounded-lg h-[315px] w-full bg-[#23262d]">
     <div class="flex flex-col h-full">
       <img
-        src={image}
+        src={`/players/${slugifiedPlayerName}.webp`}
         alt={`${firstName} ${lastName}`}
         class="w-full h-[80%] object-cover rounded-t-lg"
         transition:name={`img-${number}`}
