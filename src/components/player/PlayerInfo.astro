@@ -1,0 +1,27 @@
+---
+import Foot from "../Foot.astro";
+interface Props {
+  foot: string;
+  position: string;
+  age: number;
+  team: string;
+  logoUrl: string;
+}
+
+const { foot, position, age, team, logoUrl } = Astro.props;
+---
+
+<div
+  class="flex gap-x-4 gap-y-1 border-b-2 border-b-slate-300/20 pb-4 flex-wrap"
+>
+  <Foot foot={foot} />
+  <span class="text-slate-300/20">|</span>
+  <span>{position}</span>
+  <span class="text-slate-300/20">|</span>
+  <span>{age} years</span>
+  <span class="text-slate-300/20">|</span>
+  <div class="flex gap-2 items-center">
+    <img src={`/teams/${logoUrl}.png`} alt={team} class="h-6" />
+    <span>{team}</span>
+  </div>
+</div>

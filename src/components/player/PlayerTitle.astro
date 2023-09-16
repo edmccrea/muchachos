@@ -1,0 +1,20 @@
+---
+interface Props {
+  firstName: string;
+  lastName: string;
+  number: number;
+}
+
+const { firstName, lastName, number } = Astro.props;
+---
+
+<div class="relative">
+  <h2 class="absolute" transition:animate="slide">
+    <span class="leading-9 text-3xl">{firstName}</span>
+    <br />
+    <span class="text-5xl leading-10">{lastName}</span>
+  </h2>
+  <span class="top-0 text-[10rem] text-slate-300/20 font-bold leading-none">
+    {number}
+  </span>
+</div>

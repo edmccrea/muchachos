@@ -1,7 +1,9 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Foot from "../../components/Foot.astro";
 import { playerData } from "../../../player-data";
+import Layout from "../../layouts/Layout.astro";
+import PlayerTitle from "../../components/player/PlayerTitle.astro";
+import PlayerInfo from "../../components/player/PlayerInfo.astro";
+import NationalTeamStats from "../../components/player/NationalTeamStats.astro";
 
 export function getStaticPaths() {
   const flattenedPlayers = Object.values(playerData).flat();
@@ -44,44 +46,21 @@ const slugifiedTeamName = player?.team.toLowerCase().replace(/\s/g, "-");
             class="object-cover rounded-md h-full"
           />
         </div>
+
         <div class="flex flex-col">
-          <div class="relative">
-            <h2 class="absolute" transition:animate="slide">
-              <>
-                <span class="leading-9 text-3xl">{player.firstName}</span>
-                <br />
-              </>
-              <span class="text-5xl leading-10">{player.lastName}</span>
-            </h2>
-            <span class="top-0 text-[10rem] text-slate-300/20 font-bold leading-none">
-              {player.number}
-            </span>
-          </div>
-
-          <div class="flex gap-x-8 gap-y-1 border-b-2 border-b-slate-300/20 pb-4 flex-wrap">
-            <Foot foot={player.foot} />
-            <span class="text-slate-300/20">|</span>
-            <span>{player.position}</span>
-            <span class="text-slate-300/20">|</span>
-            <span>{player.age} years</span>
-            <span class="text-slate-300/20">|</span>
-            <div class="flex gap-2 items-center">
-              <img src={`/teams/${slugifiedTeamName}.png`} alt="" class="h-6" />
-              <span>{player.team}</span>
-            </div>
-          </div>
-
-          <div class="mt-4">
-            <h2 class="text-slate-300/50">National Team Stats</h2>
-            <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
-              {mappedCareerStats.map(([name, value]) => (
-                <div class="px-4 py-2 bg-slate-600/20 w-fit rounded-md">
-                  <h3 class="text-sm text-slate-300/50">{name}</h3>
-                  <p class="font-bold text-4xl">{value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <PlayerTitle
+            firstName={player.firstName}
+            lastName={player.lastName}
+            number={player.number}
+          />
+          <PlayerInfo
+            foot={player.foot}
+            position={player.position}
+            age={player.age}
+            team={player.team}
+            logoUrl={slugifiedTeamName!}
+          />
+          <NationalTeamStats stats={mappedCareerStats} />
 
           <div class="flex-1 flex flex-col mt-8">
             <h2 class="text-slate-300/50">World Cup 2022 Stats</h2>
