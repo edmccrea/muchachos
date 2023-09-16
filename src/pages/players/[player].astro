@@ -77,20 +77,34 @@ const slugifiedTeamName = player?.team.toLowerCase().replace(/\s/g, "-");
               <div>
                 <h3 class="text-slate-300/50">Average Rating</h3>
                 <span class="text-3xl font-bold">
-                  {player.tournamentStats.averageRating}
+                  {player.tournamentStats.averageRating || "N/A"}
                 </span>
               </div>
               <div>
-                <h3 class="text-slate-300/50">Goals</h3>
-                <span class="text-3xl font-bold">
-                  {player.tournamentStats.goals}
-                </span>
+                {player.tournamentStats.goals >= 0 ? (
+                  <h3 class="text-slate-300/50">Goals</h3>
+                  <span class="text-3xl font-bold">
+                    {player.tournamentStats.goals}
+                    </span>
+                    ) : (
+                      <h3 class="text-slate-300/50">Goals Conceeded</h3>
+                      <span class="text-3xl font-bold">
+                        {player.tournamentStats.goalsConceeded}
+                      </span>
+                    )}
               </div>
               <div>
+              {player.tournamentStats.assists >= 0 ? (
                 <h3 class="text-slate-300/50">Assists</h3>
                 <span class="text-3xl font-bold">
                   {player.tournamentStats.assists}
-                </span>
+                  </span>
+                  ) : (
+                    <h3 class="text-slate-300/50">Saves</h3>
+                    <span class="text-3xl font-bold">
+                      {player.tournamentStats.saves}
+                    </span>
+                  )}
               </div>
               <div>
                 <h3 class="text-slate-300/50">Cards</h3>
