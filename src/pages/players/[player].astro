@@ -39,8 +39,9 @@ const slugifiedTeamName = player?.team.toLowerCase().replace(/\s/g, "-");
     player && (
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8">
         <div class="max-h-[40vh] md:max-h-[75vh]">
+          <!-- Need to implement a cache busting system for this -->
           <img
-            src={`https://res.cloudinary.com/edmccrea/image/upload/c_scale,w_1200/v1699650999/Muchachos/players/${slugifiedPlayerName}.webp`}
+            src={`https://res.cloudinary.com/edmccrea/image/upload/fl_immutable_cache/c_scale,w_1200/v1699650999/Muchachos/players/${slugifiedPlayerName}.webp`}
             alt=""
             transition:name={`img-${player.number}`}
             class="object-cover rounded-md h-full"

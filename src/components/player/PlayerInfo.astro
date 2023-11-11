@@ -21,8 +21,9 @@ const { foot, position, age, team, logoUrl } = Astro.props;
   <span>{age} years</span>
   <span class="text-slate-300/20">|</span>
   <div class="flex gap-2 items-center">
+    <!-- Need to implement a cache busting system for this -->
     <img
-      src={`https://res.cloudinary.com/edmccrea/image/upload/c_scale,w_50/v1699651034/Muchachos/teams/${logoUrl}.webp`}
+      src={`https://res.cloudinary.com/edmccrea/image/upload/fl_immutable_cache/c_scale,w_50/v1699651034/Muchachos/teams/${logoUrl}.webp`}
       alt={team}
       class="h-6"
     />
